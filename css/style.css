@@ -8,29 +8,33 @@
 
 
 
-body {
-
+body 
+{
 background-image:url(../img/bg.jpg);
 background-position:center;
 background-attachment:fixed;
 background-repeat:no-repeat;
 background-size:cover;
-
 }
 
-	
+.icon 
+{ 
+padding-left:45px;
+}	
 
-	
+A
+{
+color:#FFFFFF; 
+font-size:10pt;  
+text-decoration:none; 
+}
 
-.icon { padding-left:45px;}	
-
-
-
-
-
-A{color:#FFFFFF; font-size:10pt;  text-decoration:none; }
-
-A:Visited{color:#FFFFFF;font-size:10pt;  text-decoration:none; }
+A:Visited
+{
+color:#FFFFFF;
+font-size:10pt;  
+text-decoration:none; 
+}
 
 A:Hover{
 
