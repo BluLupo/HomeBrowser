@@ -80,10 +80,6 @@ A:Hover{
 
 	}
 
-
-
-
-
 .col2 {
 margin-left:178px;
 padding-top:40px;
@@ -103,84 +99,46 @@ width:640px;
 box-shadow:  0px  0px 35px #000;
 }
 
-.col3 {width:200px;float:right;margin-left:10px;margin-top:10px;}
-
-
-
-
-
-#luna { 	
-
-	margin-left:20px;
-
-	
-
+.col3 
+{
+width:200px;
+float:right;
+margin-left:10px;
+margin-top:10px;
 }
 
-.button-web{
-
-	background-image:url(../img/web.png);
-
-	 border:5px #333333;
-
-	background-repeat:no-repeat;
-
-	background-position:center center;
-
-
-
-	  }
-
-
-
-
-
-.button-web:active{background-image:url(../img/web2.png);
-
-	background-repeat:no-repeat;
-
-	background-position:center center;
-
-	  border:1px #333333;
-
+.button-web
+{
+background-image:url(../img/web.png);
+border:5px #333333;
+background-repeat:no-repeat;
+background-position:center center;
 }
 
-
-
-.button-images{
-
-	background-image:url(../img/web.png);
-
-	 border:5px #333333;
-
-	background-repeat:no-repeat;
-
-	background-position:center center;;}
-
-
-
-
-
-.button-images:active{background-image:url(../img/web2.png);
-
-	 border:5px #333333;
-
-	background-repeat:no-repeat;
-
-	background-position:center center;
-
-
-
+.button-web:active
+{
+background-image:url(../img/web2.png);
+background-repeat:no-repeat;
+background-position:center center;
+border:1px #333333;
 }
 
+.button-images
+{
+background-image:url(../img/web.png);
+border:5px #333333;
+background-repeat:no-repeat;
+background-position:center center;;}
 
-
-
-
-
+.button-images:active
+{
+background-image:url(../img/web2.png);
+border:5px #333333;
+background-repeat:no-repeat;
+background-position:center center;
+}
 
 ::selection {background:#CCC;}
-
 ::-moz-selection 
 {
 background:#CCC;
@@ -208,20 +166,6 @@ background-repeat:no-repeat;
 background-position:center center;
 }
 /* BASE */
-
-
-
-/* Orologio */
-.orologio
-{
-color:white;
-font: bold 30px "Times New Roman", Times, serif;
-padding: 3px;
-margin-left:10px;
-}
-
-/* Orologio */
-
 /* ANIMAZIONE */
 
 .col2 {
@@ -298,7 +242,7 @@ margin-top:0px;
 
 	
 
-/* ANIMAZIONE */
+/* FINE ANIMAZIONE */
 
 
 
@@ -676,28 +620,17 @@ background-image:url(../img/bg-blur-2.jpg), url(../img/bg-blur.jpg);
 
 @keyframes trasparenza {
 
-    0% {
+    0% 
+{
+opacity:0;
 
-		opacity:0;
+}
 
-
-
-    }
-
-    100% {
-
-		opacity:100;
-
-	
-
-    }
+    100% 
+{
+opacity:100;
+}
 
 }	
 
 
-
-
-
-	
-
- /* risultati ricerca */
