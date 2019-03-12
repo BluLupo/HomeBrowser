@@ -123,19 +123,17 @@ border:1px solid #333333; "></input>
 <div>
 
 </div>
-<footer>
-<h1><script src="js/jquery-1.3.1.min.js" type="text/javascript"></script>
-<div id="display">
-</div>
-<script type="text/javascript">
-var seconds     = 1;
-var refresher   = function()
-{
-    var data_to_send = {location: window.location};
-    $('#display').load('time_view.php', data_to_send);
-}
-var refreshing  = setInterval(refresher, seconds * 1000);
-</script></h1>
+<footer >
+<font color="white">
+<a href="https://time.is/Turin" id="time_is_link" rel="nofollow" style="font-size:36px">L'ora in Torino:</a>
+<span id="Turin_z723" style="font-size:36px"></span>
+<script src="//widget.time.is/it.js"></script>
+<script>
+time_is_widget.init({Turin_z723:{template:"TIME<br>DATE<br>SUN", 
+date_format:"dayname daynum/monthnum/yy", 
+sun_format:"Alba: srhour:srminute Tramonto: sshour:ssminute<br>Durata del giorno: dlhoursh dlminutesm", 
+coords:"45.0704900,7.6868200"}});
+</script>
 </footer>
 
 </body>
