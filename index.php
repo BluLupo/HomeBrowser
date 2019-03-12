@@ -34,8 +34,7 @@
 <img src="img/W0VdA4J.png" alt="Home" border="0" class="firefox">
 
 </div>
-<br>
-<p>Ricerca</p>
+
 
       </div>
 <!-- Inizio Ricerca Google -->            
