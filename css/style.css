@@ -1,13 +1,6 @@
 @charset "utf-8";
 
 /* CSS Document */
-
-
-
-/* BASE */
-
-
-
 body 
 {
 background-image:url(../img/bg.jpg);
@@ -366,99 +359,40 @@ background-image:url(../img/bg-blur-2.jpg), url(../img/bg-blur.jpg);
 
 }
 
-
-
-.risultati {
-
-		
-
-		}
-
-	
-
-	
-
-.col2-no-animation {
-
-
-
-    -moz-animation-name: contenimento;
-
-    -moz-animation-iteration-count: 1;
-
-    -moz-animation-timing-function: cubic-bezier(0,0,0,1);
-
-    -moz-animation-duration: 0.2s;
-
-	-moz-animation-delay: 0s;
-
-
-
-    -webkit-animation-name: contenimento;
-
-    -webkit-animation-iteration-count: 1;
-
-    -webkit-animation-timing-function: cubic-bezier(0,0,0,1);
-
-    -webkit-animation-duration: 0.2s;
-
-	-webkit-animation-delay: 0s;
-
-
-
-    animation-name: contenimento;
-
-    animation-iteration-count: 1;
-
-    animation-timing-function: cubic-bezier(0,0,0,1);
-
-    animation-duration: 0.2s;
-
-	animation-delay: 0s;
-
-	
-
-	 
-
+.col2-no-animation 
+{
+-moz-animation-name: contenimento;
+-moz-animation-iteration-count: 1;
+-moz-animation-timing-function: cubic-bezier(0,0,0,1);
+-moz-animation-duration: 0.2s;
+-moz-animation-delay: 0s;
+-webkit-animation-name: contenimento;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: cubic-bezier(0,0,0,1);
+-webkit-animation-duration: 0.2s;
+-webkit-animation-delay: 0s;
+animation-name: contenimento;
+animation-iteration-count: 1;
+animation-timing-function: cubic-bezier(0,0,0,1);
+animation-duration: 0.2s;
+animation-delay: 0s;
 }
-
-
-
-
-
-
-
-
 
 @-moz-keyframes contenimento {
-
-    0% {
-
-       	width:640px;
-
-		margin-left:178px;
-
-		height:590px;
-
-
-
-    }
-
-    100% {
-
-		width:830px;
-
-		margin-left:83px;
-
-		height:860px;
-
-
-
-	
-
-    }
-
+0% 
+{
+width:640px;
+margin-left:178px;
+height:590px;
 }
+
+100% 
+{
+width:830px;
+margin-left:83px;
+height:860px;
+}
+ }
 
 @-webkit-keyframes contenimento {
 
@@ -518,85 +452,17 @@ background-image:url(../img/bg-blur-2.jpg), url(../img/bg-blur.jpg);
 
 }	
 
-
-
-
-
-
-
-
-
-.risultati {
-
-
-
-    -moz-animation-name: trasparenza;
-
-    -moz-animation-iteration-count: 1;
-
-    -moz-animation-timing-function: cubic-bezier(0,0,0,1);
-
-    -moz-animation-duration: 1s;
-
-	-moz-animation-delay: 0s;
-
-
-
-    -webkit-animation-name: trasparenza;
-
-    -webkit-animation-iteration-count: 1;
-
-    -webkit-animation-timing-function: cubic-bezier(0,0,0,1);
-
-    -webkit-animation-duration: 1s;
-
-	-webkit-animation-delay: 0s;
-
-
-
-    animation-name: trasparenza;
-
-    animation-iteration-count: 1;
-
-    animation-timing-function: cubic-bezier(0,0,0,1);
-
-    animation-duration: 1s;
-
-	animation-delay: 0s;
-
-	
-
-	 
-
-}
-
-
-
-
-
-
-
-
-
 @-moz-keyframes trasparenza {
 
-    0% {
-
-		opacity:0;
-
-
-
-    }
-
-    100% {
-
-		opacity:100;
-
-	
-
-    }
-
+    0% 
+{
+opacity:0;
 }
+100% 
+{
+opacity:100;
+}
+ }
 
 @-webkit-keyframes trasparenza {
 
