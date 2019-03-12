@@ -253,61 +253,25 @@ margin-left:10px;
 
 
 
-
-
 /* ANIMAZIONE */
 
-
-
-
-
-
-
 .col2 {
-
-
-
-    -moz-animation-name: cascata;
-
-    -moz-animation-iteration-count: 1;
-
-    -moz-animation-timing-function: cubic-bezier(0,0,0,1);
-
-    -moz-animation-duration: 1s;
-
-	-moz-animation-delay: 0s;
-
-
-
-    -webkit-animation-name: cascata;
-
-    -webkit-animation-iteration-count: 1;
-
-    -webkit-animation-timing-function: cubic-bezier(0,0,0,1);
-
-    -webkit-animation-duration: 1s;
-
-	-webkit-animation-delay: 0s;
-
-
-
-    animation-name: cascata;
-
-    animation-iteration-count: 1;
-
-    animation-timing-function: cubic-bezier(0,0,0,1);
-
-    animation-duration: 1s;
-
-	animation-delay: 0s;
-
-	
-
-	 
-
+-moz-animation-name: cascata;
+-moz-animation-iteration-count: 1;
+-moz-animation-timing-function: cubic-bezier(0,0,0,1);
+-moz-animation-duration: 1s;
+-moz-animation-delay: 0s;
+-webkit-animation-name: cascata;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: cubic-bezier(0,0,0,1);
+-webkit-animation-duration: 1s;
+-webkit-animation-delay: 0s;
+animation-name: cascata;
+animation-iteration-count: 1;
+animation-timing-function: cubic-bezier(0,0,0,1);
+animation-duration: 1s;
+animation-delay: 0s;
 }
-
-
 
 @-moz-keyframes cascata {
 
