@@ -190,9 +190,9 @@ margin-top:0px;
 
 @-webkit-keyframes cascata {
 
-    0% {
-
-         margin-top:-100%;
+    0% 
+{
+margin-top:-100%;
 
     }
 
@@ -223,78 +223,24 @@ margin-top:0px;
 }	
 /* FINE ANIMAZIONE */
 
-/* lista */
-
-
-
-.nav{
-
-	width:200px;
-
-	background-color:#333;
-
-	background-image:url(../img/bg-blur.jpg);
-
-	background-position:top center;
-
-	background-attachment:fixed;
-
-	background-repeat:repeat;
-
-	margin-top:100px;
-
-	margin-left:25px;
-
-	padding: 0px;
-
-	text-align:center;
-
-	list-style:none;
-
-	box-shadow:  0px  0px 15px #000;
-
-	border-radius: 2%;
-
-
-
-	
-
-}
-
 /* risultati ricerca */
 
-.col2-no-animation {
-
-	padding-top:40px;
-
-	margin-top:0px;
-
-	background-color:#333;
-
+.col2-no-animation 
+{
+padding-top:40px;
+margin-top:0px;
+background-color:#333;
 background-image:url(../img/bg-blur-2.jpg), url(../img/bg-blur.jpg);
-
-	background-position:top center;
-
-	background-attachment:fixed, fixed;
-
-	background-repeat:repeat-x, repeat;
-
-	margin-right:320px;
-
-	padding-bottom:20px;
-
-	height:860px;
-
-	position:fixed;
-
-	width:830px;
-
-	margin-left:83px;
-
-	box-shadow:  0px  0px 35px #000;
-
-
-
+background-position:top center;
+background-attachment:fixed, fixed;
+background-repeat:repeat-x, repeat;
+margin-right:320px;
+padding-bottom:20px;
+height:860px;
+position:fixed;
+width:830px;
+margin-left:83px;
+box-shadow:  0px  0px 35px #000;
 }
 
 .col2-no-animation 
@@ -436,5 +382,3 @@ opacity:100;
 }
 
 }	
-
-
