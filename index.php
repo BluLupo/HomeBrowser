@@ -43,7 +43,7 @@
          
    <div>         
             
-<form action="http://google.it/search" name=f>
+<form action="https://google.it/search" name=f>
 <input type="hidden" name="client" value="pub-9031061959651287">
 <input type="hidden" name="forid" value="1">
 <input type="hidden" name="ie" value="ISO-8859-1">
