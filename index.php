@@ -6,8 +6,6 @@
 <title>Homepage</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/buttons.css" rel="stylesheet" type="text/css">
-<script src="js/jquery-1.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
 			// <![CDATA[
 				
