@@ -18,3 +18,4 @@ E modificare la seguente stringa
 <br>
 Con questa
 ```<form action="https://duckduckgo.com/?q=" name=f>```
+=> <a href="https://hersel.it/home2">DEMO DUCKDUCKGO</a> <=
