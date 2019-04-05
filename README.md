@@ -8,11 +8,11 @@
 Per impostare questa variante è sufficiente modificare il codice in questo modo:
 
 Nell'<strong>index.php</strong> modificare la stringa
-<code><img src="img/W0VdA4J.png" alt="Home" border="0" class="firefox"></code>
+```<img src="img/W0VdA4J.png" alt="Home" border="0" class="firefox">```
 Con questa
-<code><img src="img/duckduckgo.png" alt="Home" border="0" class="firefox"></code>
+```<img src="img/duckduckgo.png" alt="Home" border="0" class="firefox">```
 
 E modificare la seguente stringa
-<code><form action="https://google.it/search" name=f></code>
+```<form action="https://google.it/search" name=f>```
 Con questa
-<code><form action="https://duckduckgo.com/?q=" name=f></code>
+```<form action="https://duckduckgo.com/?q=" name=f>```
